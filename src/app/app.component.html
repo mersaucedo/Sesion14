@@ -37,7 +37,7 @@
             [(ngModel)]="dni1"
            required 
             #dni="ngModel"
-           
+            maxlength="8"
           />
           <div [hidden]="dni.valid || dni.pristine" class="alert alert-danger">
             This field is required.
